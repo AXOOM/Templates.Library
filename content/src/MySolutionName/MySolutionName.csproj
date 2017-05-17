@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.5;net461</TargetFrameworks>
+    <OutputPath>..\..\artifacts\$(AssemblyName)\</OutputPath>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <IncludeSource>True</IncludeSource>
+    <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Description>MySolutionName</Description>
+    <Authors>AXOOM GmbH</Authors>
+    <Company>AXOOM GmbH</Company>
+    <Copyright>Copyright (c) AXOOM GmbH</Copyright>
+    <PackageIconUrl>https://nuget.inside-axoom.org/resources/axoom_logo.png</PackageIconUrl>
+    <RepositoryUrl>https://tfs.inside-axoom.org/tfs/axoom/axoom/_git/MySolutionName</RepositoryUrl>
+    <PackageProjectUrl>https://tfs.inside-axoom.org/tfs/axoom/axoom/_git/MySolutionName?path=%2Freadme.md</PackageProjectUrl>
+  </PropertyGroup>
+
+</Project>
