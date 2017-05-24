@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <RootNamespace>MySolutionName</RootNamespace>
+    <RootNamespace>Axoom.MySolutionName</RootNamespace>
     <TargetFramework>netcoreapp1.1</TargetFramework>
     <IsPackable>False</IsPackable>
     <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MySolutionName\MySolutionName.csproj" />
+    <ProjectReference Include="..\Axoom.MySolutionName\Axoom.MySolutionName.csproj" />
   </ItemGroup>
 
   <ItemGroup>
