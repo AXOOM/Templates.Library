@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package>
     <metadata>
-        <id>axoom-lib</id>
+        <id>Axoom.Templates.Library</id>
         <title>AXOOM Library Template</title>
         <version>0.1</version>
         <description>A dotnet-new template for AXOOM Libraries using .NET Core and NuGet.</description>

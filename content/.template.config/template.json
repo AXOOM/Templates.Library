@@ -2,7 +2,7 @@
   "author": "Bastian Eicher",
   "classifications": [ "AXOOM", "Library", "NuGet" ],
   "name": "AXOOM Library (.NET Core, NuGet)",
-  "identity": "Axoom.Library",
+  "identity": "Axoom.Templates.Library",
   "shortName": "axoom-lib",
   "tags": {
     "language": "C#"
