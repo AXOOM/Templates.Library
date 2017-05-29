@@ -1,7 +1,7 @@
 ﻿using System;
 using Xunit;
 
-namespace Axoom.MySolutionName
+namespace Axoom.MyLibrary
 {
     public class TestFixture
     {

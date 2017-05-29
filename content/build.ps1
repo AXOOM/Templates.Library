@@ -1,6 +1,6 @@
 Param ([Parameter(Mandatory=$True)][string]$Version)
 $ErrorActionPreference = "Stop"
-$SolutionName = "MySolutionName"
+$SolutionName = "Axoom.MyLibrary"
 
 pushd "$(Split-Path -Path $MyInvocation.MyCommand.Definition -Parent)/src"
 

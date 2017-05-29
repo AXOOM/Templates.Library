@@ -1,16 +1,17 @@
 {
   "author": "Bastian Eicher",
-  "classifications": [ "AXOOM", "Library", "NuGet" ],
-  "name": "AXOOM Library (.NET Core, NuGet)",
-  "identity": "Axoom.Templates.Library",
+  "classifications": [ "AXOOM", "Library" ],
+  "name": "AXOOM Library (.NET Core)",
   "shortName": "axoom-lib",
+  "identity": "Axoom.Templates.Library",
+  "groupIdentity": "Axoom.Templates.Library",
   "tags": {
     "language": "C#"
   },
-  "sourceName": "Axoom.MySolutionName",
+  "sourceName": "Axoom.MyLibrary",
   "preferNameDirectory": "true",
   "guids": [
     "837BC53E-0271-4E9C-B5B5-C60EA7A7C7B5",
     "113F2D04-69F0-40C3-8797-BA3F356DD812"
-  ],
+  ]
 }
