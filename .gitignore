@@ -8,4 +8,4 @@
 /content/src/**/*.user
 .vscode/
 
-/*.nupkg
+/artifacts/
