@@ -1,11 +1,2 @@
-/content/src/**/obj/
-/content/src/**/bin/
-/content/artifacts/
-
-/content/src/.vs/
-/content/src/.idea/
-/content/src/_ReSharper.*/
-/content/src/**/*.user
-.vscode/
-
 /artifacts/
+.vscode/
