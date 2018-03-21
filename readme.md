@@ -11,5 +11,5 @@ The `content` directory is what actually gets packaged into the template. The fi
 
 ## Using
 
-To install the template run `dotnet new --install axoom-lib::*`.
+To install the template run `dotnet new --install Axoom.Templates.Library::*`.
 To use the template run `dotnet new axoom-lib --description "my description"`.
