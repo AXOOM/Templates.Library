@@ -1,6 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <AssemblyName>Axoom.MyLibrary.UnitTests</AssemblyName>
     <RootNamespace>Axoom.MyLibrary</RootNamespace>
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <IsPackable>False</IsPackable>
@@ -16,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Axoom.MyLibrary\Axoom.MyLibrary.csproj" />
+    <ProjectReference Include="..\Library\Library.csproj" />
   </ItemGroup>
 
   <ItemGroup>
