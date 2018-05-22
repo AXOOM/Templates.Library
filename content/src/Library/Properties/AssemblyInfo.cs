@@ -1,3 +1,3 @@
 using System.Runtime.CompilerServices;
 
-[assembly: InternalsVisibleTo("Axoom.MyLibrary.UnitTests")]
+[assembly: InternalsVisibleTo("MyVendor.MyLibrary.UnitTests")]
