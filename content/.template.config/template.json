@@ -15,11 +15,11 @@
     "113F2D04-69F0-40C3-8797-BA3F356DD812"
   ],
   "symbols": {
-    "vendorDomain": {
+    "author": {
       "type": "parameter",
       "dataType": "string",
       "isRequired": true,
-      "replaces":"example.com"
+      "replaces":"My Company"
     },
     "description": {
       "type": "parameter",

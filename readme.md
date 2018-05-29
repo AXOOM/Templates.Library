@@ -18,7 +18,7 @@ To use the template to create a new project:
 
     mkdir MyVendor.MyLibrary
     cd MyVendor.MyLibrary
-    dotnet new axoom-lib --vendorDomain example.com --description "my description"
+    dotnet new axoom-lib --author "My Company" --description "my description"
 
 In the commands above replace
 - `example.com` with the public domain of your company and
