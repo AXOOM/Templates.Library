@@ -9,7 +9,8 @@
     <OutputPath>..\..\artifacts</OutputPath>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <IncludeSource>True</IncludeSource>
+    <PublishRepositoryUrl>True</PublishRepositoryUrl>
+    <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
     <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
     <NoWarn>$(NoWarn);1591</NoWarn>
   </PropertyGroup>
@@ -18,5 +19,18 @@
     <Authors>My Company</Authors>
     <Description>my description</Description>
   </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Uncomment this if the project is hosted on GitHub. -->
+    <!--
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0-beta-63127-02" PrivateAssets="All" />
+    -->
+
+    <!-- Uncomment this if the project is hosted on TFS. -->
+    <!--
+    <PackageReference Include="Microsoft.SourceLink.Tfs.Git" Version="1.0.0-beta-63127-02" PrivateAssets="All"/>
+    <SourceLinkTfsGitHost Include="tfs.inside-axoom.org" VirtualDirectory="tfs"/>
+    -->
+  </ItemGroup>
 
 </Project>
