@@ -16,9 +16,8 @@ Download and install the [.NET Core SDK](https://www.microsoft.com/net/download)
 
 To use the template to create a new project:
 
-    mkdir MyVendor.MyLibrary
+    dotnet new axoom-lib --name "MyVendor.MyLibrary" --author "My Company" --description "my description"
     cd MyVendor.MyLibrary
-    dotnet new axoom-lib --author "My Company" --description "my description"
 
 In the commands above replace
 - `example.com` with the public domain of your company and
