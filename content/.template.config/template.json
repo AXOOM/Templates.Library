@@ -19,13 +19,13 @@
       "type": "parameter",
       "dataType": "string",
       "isRequired": true,
-      "replaces":"My Company"
+      "replaces": "My Company"
     },
     "description": {
       "type": "parameter",
       "dataType": "string",
       "isRequired": true,
-      "replaces":"my description"
+      "replaces": "my description"
     }
   }
 }
