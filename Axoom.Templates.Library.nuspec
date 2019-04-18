@@ -4,10 +4,12 @@
         <id>Axoom.Templates.Library</id>
         <title>AXOOM Library Template</title>
         <version>0.1</version>
-        <description>A dotnet-new template for AXOOM Libraries using .NET Core and NuGet.</description>
+        <description>A dotnet-new template for libraries using .NET Core and NuGet.</description>
         <authors>Bastian Eicher</authors>
-        <projectUrl>https://tfs.inside-axoom.org/tfs/axoom/axoom/_git/Axoom.Templates.Library?path=%2Freadme.md</projectUrl>
-        <iconUrl>https://nuget.inside-axoom.org/resources/axoom_logo.png</iconUrl>
+        <copyright>Copyright AXOOM GmbH</copyright>
+        <license type="expression">MIT</license>
+        <projectUrl>https://github.com/AXOOM/Templates.Library</projectUrl>
+        <iconUrl>https://github.com/AXOOM/Templates.Library/raw/develop/axoom.png</iconUrl>
         <packageTypes>
             <packageType name="Template" />
         </packageTypes>

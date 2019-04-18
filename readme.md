@@ -1,11 +1,14 @@
 # AXOOM Library Template
 
+[![NuGet package](https://img.shields.io/nuget/v/Axoom.Templates.Library.svg)](https://www.nuget.org/packages/Axoom.Templates.Library/)
+[![Build status](https://img.shields.io/appveyor/ci/AXOOM/templates-library.svg)](https://ci.appveyor.com/project/AXOOM/templates-library)
+
 This template helps you create reusable [.NET Standard](https://docs.microsoft.com/dotnet/standard/net-standard) libraries for distribution and consumption via [NuGet](http://nuget.org/).
 
 If this is not your goal one of our other templates may be a better match:
-- [AXOOM Service Template](https://github.com/AXOOM/Axoom.Templates.Service)
-- [AXOOM WebService Template](https://github.com/AXOOM/Axoom.Templates.WebService)
-- [AXOOM Portal App Template](https://github.com/AXOOM/Axoom.Templates.PortalApp)
+- [AXOOM Service Template](https://github.com/AXOOM/Templates.Service)
+- [AXOOM WebService Template](https://github.com/AXOOM/Templates.WebService)
+- [AXOOM Portal App Template](https://github.com/AXOOM/Templates.PortalApp)
 
 
 # Using the template
