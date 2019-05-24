@@ -21,9 +21,11 @@ To use the template to create a new project:
 
     dotnet new axoom-lib --name "MyVendor.MyLibrary" --author "My Company" --description "my description"
     cd MyVendor.MyLibrary
+    git init
 
 In the commands above replace
-- `example.com` with the public domain of your company and
+- `MyVendor.MyLibrary` with the .NET namespace and NuGet package name you wish to use,
+- `My Name` with the name of your company and
 - `my description` with a brief (single sentence) description of the library.
 
 You can now open the generated project using your favorite IDE. We recommend [Visual Studio](https://www.visualstudio.com/downloads/), [Visual Studio Code](https://code.visualstudio.com/Download) or [Rider](https://www.jetbrains.com/rider/).
